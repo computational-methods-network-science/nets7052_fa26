@@ -1,0 +1,33 @@
+name: nsdm-core
+channels:
+- conda-forge
+dependencies:
+- python=3.11
+- jupyterlab
+- ipykernel
+- numpy
+- pandas
+- scipy
+- matplotlib
+- networkx
+- scikit-learn
+- statsmodels
+- numba
+- mpmath
+- tailestim
+- dynetx
+- python-duckdb
+- pyarrow
+- fastparquet
+- joblib
+- geopy
+- pymysql
+- datashader
+- pyvis
+- pillow
+- colorspacious
+- python-louvain
+- pyshp
+- pip
+- pip:
+  - EoN==1.2

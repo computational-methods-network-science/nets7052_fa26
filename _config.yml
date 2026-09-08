@@ -1,0 +1,25 @@
+# Jupyter Book settings — PHYS/NETS 7052, Fall 2026
+
+title: "Computational Methods for Network Science (Fall 2026)"
+author: Brennan Klein
+
+execute:
+  execute_notebooks: "off"   # notebooks ship with stored outputs
+
+only_build_toc_files: true
+
+repository:
+  url: https://github.com/computational-methods-network-science/nets7052_fa26
+  branch: main
+
+html:
+  use_repository_button: true
+  use_issues_button: true
+  home_page_in_navbar: true
+
+parse:
+  myst_enable_extensions:
+    - strikethrough
+    - dollarmath
+    - amsmath
+    - colon_fence

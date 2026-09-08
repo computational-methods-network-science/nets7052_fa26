@@ -1,0 +1,16 @@
+name: nsdm-ml
+channels:
+- conda-forge
+dependencies:
+- python=3.11
+- jupyterlab
+- ipykernel
+- numpy
+- pandas
+- scipy
+- matplotlib
+- networkx
+- scikit-learn
+- pytorch-cpu
+- gensim
+- pip

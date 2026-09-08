@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- course-specific (added 2026-09-08) -------------------------------------
+# The FA25 repo hit 1.1GB because these got committed. Keep them out.
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+_build/
+.DS_Store
+
+# osmnx / geopandas API caches
+cache/
+**/cache/
+.osmnx_cache/
+
+# Large data lives on the cluster at /courses/NETS7052.202710/data/ — see data/README.md
+*.pickle
+*.pkl
+*.asc
+*.shp
+*.shx
+*.dbf
+*.h5
+*.hdf5

@@ -1,0 +1,16 @@
+name: nsdm-graphtool
+channels:
+- conda-forge
+dependencies:
+- python=3.11
+- jupyterlab
+- ipykernel
+- numpy
+- pandas
+- scipy
+- matplotlib
+- networkx
+- graph-tool
+- python-igraph
+- leidenalg
+- python-infomap
