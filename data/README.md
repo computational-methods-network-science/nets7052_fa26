@@ -6,7 +6,7 @@ The large datasets for this course live on the cluster:
 /courses/NETS7052.202710/data/
 ```
 
-That directory is readable by everyone enrolled in the class and writable by the teaching staff. Nothing you need to run a class notebook has to be downloaded.
+That directory is readable by everyone enrolled in the class. Nothing you need to run a class notebook has to be downloaded.
 
 ## Using it from a notebook
 
@@ -36,13 +36,3 @@ DATA = Path("~/my_local_data").expanduser()
 | `ma_clim.csv` | 5.5 MB | Class 22 — Spatial Data |
 
 Small example files (under ~5 MB) that a notebook needs in order to run standalone are committed alongside it, under `notebooks/class_NN/data/`.
-
-## Adding data (teaching staff)
-
-Copy it to the shared directory rather than committing it:
-
-```bash
-cp big_dataset.csv /courses/NETS7052.202710/data/
-```
-
-Then add a row to the table above so students know what it is and which class uses it.
