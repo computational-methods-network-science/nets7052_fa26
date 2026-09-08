@@ -1,4 +1,4 @@
-name: nsdm-osmnx
+name: cmns-osmnx
 channels:
 - conda-forge
 dependencies:

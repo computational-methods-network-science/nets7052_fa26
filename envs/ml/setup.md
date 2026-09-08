@@ -1,4 +1,4 @@
-# NSDM Machine Learning environment (nsdm-ml)
+# NSDM Machine Learning environment (cmns-ml)
 
 This guide installs a CPU-first environment for ML notebooks using **PyTorch** (plus scikit-learn).
 
@@ -41,7 +41,7 @@ From the folder that contains `environment.yml`:
 
 ```bash
 mamba env create -f environment.yml
-conda activate nsdm-ml
+conda activate cmns-ml
 ```
 
 ---
@@ -49,8 +49,8 @@ conda activate nsdm-ml
 ## 3) Register as a Jupyter kernel
 
 ```bash
-conda activate nsdm-ml
-python -m ipykernel install --user --name nsdm-ml --display-name "Python (nsdm-ml / PyTorch CPU)"
+conda activate cmns-ml
+python -m ipykernel install --user --name cmns-ml --display-name "Python (cmns-ml / PyTorch CPU)"
 ```
 
 ---
@@ -58,7 +58,7 @@ python -m ipykernel install --user --name nsdm-ml --display-name "Python (nsdm-m
 ## 4) Verify the install
 
 ```bash
-conda activate nsdm-ml
+conda activate cmns-ml
 python -c "import torch; import sklearn; print(torch.__version__); print('cuda available:', torch.cuda.is_available())"
 ```
 
@@ -86,7 +86,7 @@ Two notebooks import `torch_geometric`, but they are written to **skip PyG-only 
 If you want to run the PyG sections, install it **after** PyTorch is working:
 
 ```bash
-conda activate nsdm-ml
+conda activate cmns-ml
 python -m pip install torch-geometric
 ```
 
@@ -97,11 +97,11 @@ If that fails (common), follow the official PyTorch Geometric install instructio
 ## 6) Launch JupyterLab
 
 ```bash
-conda activate nsdm-ml
+conda activate cmns-ml
 jupyter lab
 ```
 
-Kernel: **Python (nsdm-ml / PyTorch CPU)**
+Kernel: **Python (cmns-ml / PyTorch CPU)**
 
 ---
 
@@ -125,14 +125,14 @@ If you need GPU support, use the official PyTorch “Start Locally” / “Previ
 Update:
 
 ```bash
-conda activate nsdm-ml
+conda activate cmns-ml
 conda env update -f environment.yml --prune
 ```
 
 Remove:
 
 ```bash
-conda env remove -n nsdm-ml
+conda env remove -n cmns-ml
 ```
 
 ---
@@ -146,7 +146,7 @@ conda env remove -n nsdm-ml
    Check what you have:
 
    ```bash
-   conda activate nsdm-ml
+   conda activate cmns-ml
    python -c "import torch; print(torch.__version__); print(torch.cuda.is_available())"
    conda list | grep -i torch
    ```

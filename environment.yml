@@ -1,4 +1,4 @@
-name: nsdm-core
+name: cmns-core
 channels:
 - conda-forge
 dependencies:

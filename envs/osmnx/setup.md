@@ -1,4 +1,4 @@
-# NSDM OSMnx / Geospatial environment (nsdm-osmnx)
+# NSDM OSMnx / Geospatial environment (cmns-osmnx)
 
 This guide installs a Conda environment for geospatial notebooks using **OSMnx + GeoPandas**.
 
@@ -41,7 +41,7 @@ From the folder that contains `environment.yml`:
 
 ```bash
 mamba env create -f environment.yml
-conda activate nsdm-osmnx
+conda activate cmns-osmnx
 ```
 
 ---
@@ -49,8 +49,8 @@ conda activate nsdm-osmnx
 ## 3) Register as a Jupyter kernel
 
 ```bash
-conda activate nsdm-osmnx
-python -m ipykernel install --user --name nsdm-osmnx --display-name "Python (nsdm-osmnx / OSMnx)"
+conda activate cmns-osmnx
+python -m ipykernel install --user --name cmns-osmnx --display-name "Python (cmns-osmnx / OSMnx)"
 ```
 
 ---
@@ -58,7 +58,7 @@ python -m ipykernel install --user --name nsdm-osmnx --display-name "Python (nsd
 ## 4) Verify the install
 
 ```bash
-conda activate nsdm-osmnx
+conda activate cmns-osmnx
 python -c "import osmnx as ox, geopandas as gpd, shapely; import pyproj; print('osmnx/geopandas OK')"
 ```
 
@@ -83,11 +83,11 @@ print("networkx:", nx.__version__)
 ## 5) Launch JupyterLab
 
 ```bash
-conda activate nsdm-osmnx
+conda activate cmns-osmnx
 jupyter lab
 ```
 
-Kernel: **Python (nsdm-osmnx / OSMnx)**
+Kernel: **Python (cmns-osmnx / OSMnx)**
 
 ---
 
@@ -104,14 +104,14 @@ Kernel: **Python (nsdm-osmnx / OSMnx)**
 Update:
 
 ```bash
-conda activate nsdm-osmnx
+conda activate cmns-osmnx
 conda env update -f environment.yml --prune
 ```
 
 Remove:
 
 ```bash
-conda env remove -n nsdm-osmnx
+conda env remove -n cmns-osmnx
 ```
 
 ---

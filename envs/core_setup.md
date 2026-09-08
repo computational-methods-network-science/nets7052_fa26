@@ -1,4 +1,4 @@
-# NSDM Core environment (nsdm-core)
+# NSDM Core environment (cmns-core)
 
 This guide installs the **core Python environment** for the Network Science notebooks: scientific Python, NetworkX, plotting, plus a handful of extra libraries that show up in the “core” notebooks (stats/temporal networks/big-data I/O/visualization).
 
@@ -44,7 +44,7 @@ From the folder that contains `environment.yml`:
 
 ```bash
 mamba env create -f environment.yml
-conda activate nsdm-core
+conda activate cmns-core
 ```
 
 If you don’t have `mamba`, replace the first command with:
@@ -71,8 +71,8 @@ Be consistent: mixing `arm64` and `x86_64` environments is a common source of in
 ## 3) Register as a Jupyter kernel (non-negotiable)
 
 ```bash
-conda activate nsdm-core
-python -m ipykernel install --user --name nsdm-core --display-name "Python (nsdm-core)"
+conda activate cmns-core
+python -m ipykernel install --user --name cmns-core --display-name "Python (cmns-core)"
 ```
 
 Check that it worked:
@@ -88,7 +88,7 @@ jupyter kernelspec list
 ### 4.1 Command-line import test
 
 ```bash
-conda activate nsdm-core
+conda activate cmns-core
 python -c "import networkx as nx, numpy as np, pandas as pd; import sklearn; import statsmodels; print('core imports OK')"
 ```
 
@@ -117,11 +117,11 @@ print("statsmodels:", statsmodels.__version__)
 ## 5) Launch JupyterLab
 
 ```bash
-conda activate nsdm-core
+conda activate cmns-core
 jupyter lab
 ```
 
-In JupyterLab: **Kernel → Change Kernel → Python (nsdm-core)**.
+In JupyterLab: **Kernel → Change Kernel → Python (cmns-core)**.
 
 ---
 
@@ -174,14 +174,14 @@ In JupyterLab: **Kernel → Change Kernel → Python (nsdm-core)**.
 Update (apply changes if `environment.yml` changes):
 
 ```bash
-conda activate nsdm-core
+conda activate cmns-core
 conda env update -f environment.yml --prune
 ```
 
 Remove:
 
 ```bash
-conda env remove -n nsdm-core
+conda env remove -n cmns-core
 ```
 
 ---
@@ -228,8 +228,8 @@ conda env remove -n nsdm-core
    Make sure you used `--user`, and try again after activating the env:
 
    ```bash
-   conda activate nsdm-core
-   python -m ipykernel install --user --name nsdm-core --display-name "Python (nsdm-core)"
+   conda activate cmns-core
+   python -m ipykernel install --user --name cmns-core --display-name "Python (cmns-core)"
    ```
 
 7) **Still stuck? Collect diagnostics before asking for help.**

@@ -1,4 +1,4 @@
-# NSDM graph-tool environment (nsdm-graphtool)
+# NSDM graph-tool environment (cmns-graphtool)
 
 This guide installs a dedicated Conda environment for the notebooks that use **graph-tool**.
 
@@ -41,7 +41,7 @@ From the folder that contains `environment.yml`:
 
 ```bash
 mamba env create -f environment.yml
-conda activate nsdm-graphtool
+conda activate cmns-graphtool
 ```
 
 ---
@@ -63,8 +63,8 @@ Reboot if prompted, then open Ubuntu and repeat the Linux/macOS steps above *ins
 ## 4) Register as a Jupyter kernel
 
 ```bash
-conda activate nsdm-graphtool
-python -m ipykernel install --user --name nsdm-graphtool --display-name "Python (nsdm-graphtool / graph-tool)"
+conda activate cmns-graphtool
+python -m ipykernel install --user --name cmns-graphtool --display-name "Python (cmns-graphtool / graph-tool)"
 ```
 
 ---
@@ -72,7 +72,7 @@ python -m ipykernel install --user --name nsdm-graphtool --display-name "Python 
 ## 5) Verify the install
 
 ```bash
-conda activate nsdm-graphtool
+conda activate cmns-graphtool
 python -c "import graph_tool.all as gt; import networkx as nx; print('graph-tool OK')"
 ```
 
@@ -93,11 +93,11 @@ print("numpy:", np.__version__)
 ## 6) Launch JupyterLab
 
 ```bash
-conda activate nsdm-graphtool
+conda activate cmns-graphtool
 jupyter lab
 ```
 
-Kernel: **Python (nsdm-graphtool / graph-tool)**
+Kernel: **Python (cmns-graphtool / graph-tool)**
 
 ---
 
@@ -113,14 +113,14 @@ Kernel: **Python (nsdm-graphtool / graph-tool)**
 Update:
 
 ```bash
-conda activate nsdm-graphtool
+conda activate cmns-graphtool
 conda env update -f environment.yml --prune
 ```
 
 Remove:
 
 ```bash
-conda env remove -n nsdm-graphtool
+conda env remove -n cmns-graphtool
 ```
 
 ---
@@ -131,7 +131,7 @@ conda env remove -n nsdm-graphtool
    Confirm you’re in the environment:
 
    ```bash
-   conda activate nsdm-graphtool
+   conda activate cmns-graphtool
    which python
    python -c "import graph_tool.all as gt; print(gt.__version__)"
    ```
@@ -151,8 +151,8 @@ conda env remove -n nsdm-graphtool
    Re-register the kernel after activation:
 
    ```bash
-   conda activate nsdm-graphtool
-   python -m ipykernel install --user --name nsdm-graphtool --display-name "Python (nsdm-graphtool / graph-tool)"
+   conda activate cmns-graphtool
+   python -m ipykernel install --user --name cmns-graphtool --display-name "Python (cmns-graphtool / graph-tool)"
    ```
 
 5) **Last resort: Docker**  

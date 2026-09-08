@@ -1,4 +1,4 @@
-# NSDM igraph environment (nsdm-igraph)
+# NSDM igraph environment (cmns-igraph)
 
 This guide installs a dedicated environment for notebooks that use **python-igraph** (plus Leiden community detection, and Plotly-based plotting).
 
@@ -39,7 +39,7 @@ From the folder that contains `environment.yml`:
 
 ```bash
 mamba env create -f environment.yml
-conda activate nsdm-igraph
+conda activate cmns-igraph
 ```
 
 ---
@@ -47,8 +47,8 @@ conda activate nsdm-igraph
 ## 3) Register as a Jupyter kernel
 
 ```bash
-conda activate nsdm-igraph
-python -m ipykernel install --user --name nsdm-igraph --display-name "Python (nsdm-igraph / igraph)"
+conda activate cmns-igraph
+python -m ipykernel install --user --name cmns-igraph --display-name "Python (cmns-igraph / igraph)"
 ```
 
 ---
@@ -56,7 +56,7 @@ python -m ipykernel install --user --name nsdm-igraph --display-name "Python (ns
 ## 4) Verify the install
 
 ```bash
-conda activate nsdm-igraph
+conda activate cmns-igraph
 python -c "import igraph as ig; import leidenalg; import plotly; print('igraph OK')"
 ```
 
@@ -79,11 +79,11 @@ print("numpy:", np.__version__)
 ## 5) Launch JupyterLab
 
 ```bash
-conda activate nsdm-igraph
+conda activate cmns-igraph
 jupyter lab
 ```
 
-Kernel: **Python (nsdm-igraph / igraph)**
+Kernel: **Python (cmns-igraph / igraph)**
 
 ---
 
@@ -99,14 +99,14 @@ Kernel: **Python (nsdm-igraph / igraph)**
 Update:
 
 ```bash
-conda activate nsdm-igraph
+conda activate cmns-igraph
 conda env update -f environment.yml --prune
 ```
 
 Remove:
 
 ```bash
-conda env remove -n nsdm-igraph
+conda env remove -n cmns-igraph
 ```
 
 ---
@@ -117,7 +117,7 @@ conda env remove -n nsdm-igraph
    Check you’re in the right environment and you’re not mixing channels:
 
    ```bash
-   conda activate nsdm-igraph
+   conda activate cmns-igraph
    conda list | grep igraph
    python -c "import igraph; print(igraph.__version__)"
    ```
@@ -129,8 +129,8 @@ conda env remove -n nsdm-igraph
    Re-register the kernel:
 
    ```bash
-   conda activate nsdm-igraph
-   python -m ipykernel install --user --name nsdm-igraph --display-name "Python (nsdm-igraph / igraph)"
+   conda activate cmns-igraph
+   python -m ipykernel install --user --name cmns-igraph --display-name "Python (cmns-igraph / igraph)"
    ```
 
 4) **macOS: Intel/Rosetta mismatch.**  

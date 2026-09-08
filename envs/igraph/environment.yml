@@ -1,4 +1,4 @@
-name: nsdm-igraph
+name: cmns-igraph
 channels:
 - conda-forge
 dependencies:

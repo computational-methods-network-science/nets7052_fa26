@@ -24,7 +24,7 @@ Everything runs on Northeastern's **Explorer** HPC cluster. Class 00 walks throu
 2. **Load conda and activate the class environment:**
    ```bash
    module load anaconda3/2024.06
-   source activate /courses/NETS7052.202710/shared/nets7052-env
+   source activate /courses/NETS7052.202710/shared/cmns-core
    ```
 3. **Fork this repository** on GitHub (button in the top right).
 4. **Clone your fork** into your student directory on the cluster:
@@ -45,17 +45,17 @@ Everything runs on Northeastern's **Explorer** HPC cluster. Class 00 walks throu
 
 ### Environments
 
-The main environment is defined in [`environment.yml`](environment.yml) (`nsdm-core`: scientific Python, NetworkX, plotting). A few later classes need heavier, conflicting dependencies and get their own environment under [`envs/`](envs/):
+The main environment is defined in [`environment.yml`](environment.yml) (`cmns-core`: scientific Python, NetworkX, plotting). A few later classes need heavier, conflicting dependencies and get their own environment under [`envs/`](envs/):
 
 | Environment | Used for |
 |---|---|
-| `nsdm-core` | most classes |
-| `nsdm-ml` | Classes 12–13 (machine learning; PyTorch, gensim) |
-| `nsdm-osmnx` | Class 22 (spatial data) |
-| `nsdm-igraph` | igraph / Leiden community detection |
-| `nsdm-graphtool` | graph-tool / Infomap |
+| `cmns-core` | most classes |
+| `cmns-ml` | Classes 12–13 (machine learning; PyTorch, gensim) |
+| `cmns-osmnx` | Class 22 (spatial data) |
+| `cmns-igraph` | igraph / Leiden community detection |
+| `cmns-graphtool` | graph-tool / Infomap |
 
-On the cluster the shared `nsdm-core` environment is already built for you at the path in step 2 — you do not need to create it. The `envs/*/setup.md` guides are there if you want to run any of this on your own machine.
+On the cluster the shared `cmns-core` environment is already built for you at the path in step 2 — you do not need to create it. The `envs/*/setup.md` guides are there if you want to run any of this on your own machine.
 
 Full instructions, including SSH keys and fixing common Git problems, are in [Class 00](notebooks/class_00/class_00_intro_and_setup.ipynb).
 
@@ -65,7 +65,7 @@ Full instructions, including SSH keys and fixing common Git problems, are in [Cl
 nets7052_fa26/
 ├── notebooks/
 │   └── class_NN/                   one folder per class meeting, posted before that class
-├── environment.yml                 the main conda environment (nsdm-core)
+├── environment.yml                 the main conda environment (cmns-core)
 ├── envs/                           specialized environments (ml, osmnx, igraph, graphtool)
 ├── data/README.md                  where the large course datasets live
 ├── _config.yml, _toc.yml           Jupyter Book configuration

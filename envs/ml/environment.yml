@@ -1,4 +1,4 @@
-name: nsdm-ml
+name: cmns-ml
 channels:
 - conda-forge
 dependencies:
