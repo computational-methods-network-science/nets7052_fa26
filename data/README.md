@@ -1,8 +1,6 @@
 # Course data
 
-Large datasets are **not** committed to this repository. In Fall 2025 they were, and the repo grew to 1.1 GB — which made forking and cloning painfully slow for everyone. This term the big files live on the cluster instead.
-
-## Where the data lives
+The large datasets for this course live on the cluster:
 
 ```
 /courses/NETS7052.202710/data/
@@ -27,9 +25,7 @@ If you are working off the cluster, set the same variable to wherever you keep y
 DATA = Path("~/my_local_data").expanduser()
 ```
 
-## Datasets moved out of the repo
-
-These were committed in the FA25 repository and now live in the shared `data/` directory instead:
+## What's in there
 
 | File | Size | Used by |
 |---|---|---|
@@ -39,7 +35,7 @@ These were committed in the FA25 repository and now live in the shared `data/` d
 | `cit-HepPh.txt` | 6.4 MB | Class 17 — Network Sampling |
 | `ma_clim.csv` | 5.5 MB | Class 22 — Spatial Data |
 
-Small example files (under ~5 MB) that a notebook needs in order to run standalone are still committed, under `notebooks/class_NN/data/`.
+Small example files (under ~5 MB) that a notebook needs in order to run standalone are committed alongside it, under `notebooks/class_NN/data/`.
 
 ## Adding data (teaching staff)
 
