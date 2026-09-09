@@ -171,7 +171,7 @@ This schedule is subject to change.
 | 3 | Mon, Sep 21, 26 | Introduction to NetworkX 2 — Graph Algorithms | Brennan Klein |
 | 4 | Wed, Sep 23, 26 | Distributions of Network Properties & Centralities | Brennan Klein |
 | – | Fri, Sep 25, 26 | | |
-| 5 | Mon, Sep 28, 26 | Scraping Web Data 1 — BeautifulSoup, HTML, Pandas | Brennan Klein |
+| 5 | Mon, Sep 28, 26 | Scraping Web Data — BeautifulSoup, HTML, Pandas | Brennan Klein |
 | 6 | Wed, Sep 30, 26 | Data Science & SQL | Brennan Klein |
 | – | Fri, Oct 2, 26 | **Assignment 1 due** | |
 | 7 | Mon, Oct 5, 26 | Clustering & Community Detection 1 — Traditional | Brennan Klein |
