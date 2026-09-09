@@ -1,4 +1,4 @@
-# NSDM Core environment (cmns-core)
+# Core environment (cmns-core)
 
 This guide installs the **core Python environment** for the Network Science notebooks: scientific Python, NetworkX, plotting, plus a handful of extra libraries that show up in the “core” notebooks (stats/temporal networks/big-data I/O/visualization).
 
@@ -125,49 +125,9 @@ In JupyterLab: **Kernel → Change Kernel → Python (cmns-core)**.
 
 ---
 
-## 6) Which notebooks use this environment?
+## Which classes use this environment?
 
-- `class_01_python_refresher_v2.ipynb`
-- `class_02_networkx1_v2.ipynb`
-- `class_03_networkx2_v2.ipynb`
-- `class_04_distributions_v5.ipynb`
-- `class_11_homophily_v4.ipynb`
-- `class_12_visualization_python_v3.ipynb`
-- `class_16_dynamics1_v4.ipynb`
-- `class_17_dynamics2_v3.ipynb`
-- `class_18_dynamics3_v3.ipynb`
-- `class_19_graphdistances_v2.ipynb`
-- `class_20_temporal_networks_v3.ipynb`
-- `class_21_sparsification_v3.ipynb`
-- `class_22_sampling_v5.ipynb`
-- `class_23_linkprediction_v3.ipynb`
-- `class_25_spectral_v2.ipynb`
-- `class_27_network_reconstruction_v4.ipynb`
-- `class_31_causal_inference_networks_v3.ipynb`
-- `class_32_stats_v3.ipynb`
-- `class_33_geometry_v3.ipynb`
-- `class_34_information_theory_networks_v3.ipynb`
-- `class_35_complex_contagion_v4.ipynb`
-- `class_39_temporal_community_detection_v3.ipynb`
-- `class_40_motifs_v4.ipynb`
-- `class_41_signed_networks_v4.ipynb`
-- `class_42_coarse_graining_v3.ipynb`
-- `class_44_network_growth_models_v3.ipynb`
-- `class_45_ranking_in_networks_v3.ipynb`
-- `class_46_network_rewiring_dynamics_v3.ipynb`
-- `class_48_games_on_networks_v3.ipynb`
-- `class_49_hierarchical_v3.ipynb`
-- `class_50_visibility_graphs_v2.ipynb`
-- `class_51_paths_v3.ipynb`
-- `class_52_robustness_resilience_v2.ipynb`
-- `class_53_dynamics4_v3.ipynb`
-- `class_54_graph_curvature_v2.ipynb`
-- `class_55_ergm_v2.ipynb`
-- `class_56_neuronal_dynamics_v1.ipynb`
-- `class_63_sql_to_networks_v3.ipynb`
-- `class_69_bigdata_v4.ipynb`
-
----
+Most of them. The exceptions are Classes 7 and 8 (community detection), 12 and 13 (machine learning), and 22 (spatial), which need the heavier environments under `envs/`. The schedule in the [README](../README.md) says which is which.
 
 ## 7) Updating / removing the environment
 

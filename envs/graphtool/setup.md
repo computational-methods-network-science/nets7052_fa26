@@ -1,4 +1,4 @@
-# NSDM graph-tool environment (cmns-graphtool)
+# graph-tool environment (cmns-graphtool)
 
 This guide installs a dedicated Conda environment for the notebooks that use **graph-tool**.
 
@@ -101,12 +101,9 @@ Kernel: **Python (cmns-graphtool / graph-tool)**
 
 ---
 
-## 7) Which notebooks use this environment?
+## Which classes use this environment?
 
-- `class_09_communities2_v3.ipynb`
-- `class_10_communities3.ipynb`
-
----
+Clustering & Community Detection, Classes 7 and 8, wherever we want graph-tool or Infomap.
 
 ## 8) Updating / removing the environment
 

@@ -10,7 +10,7 @@ September 9 – December 16, 2026
 
 **Syllabus:** https://brennanklein.com/nets7052-fall26
 
-**Office Hours:** Wednesdays, 1:30–2:30pm, Network Science Institute (177 Huntington Ave, 10th floor) or Zoom
+**Office Hours:** Wednesdays, 1:30–2:30pm, 101 Belvidere St. #C4-187 or Zoom
 
 ## Summary
 
@@ -29,11 +29,11 @@ Everything runs on Northeastern's Explorer HPC cluster. Class 00 walks through t
    source /shared/EL9/explorer/anaconda3/2024.06/etc/profile.d/conda.sh
    conda activate /courses/NETS7052.202710/shared/cmns-core
    ```
-   To use it in a notebook, register it as a kernel once — the OOD "Custom Anaconda Environment" box takes an environment name and ours is a path, so leave that box blank:
+   To use it in a notebook, register it as a kernel once — the OOD "Custom Anaconda Environment" checkbox only takes an environment *name*, and ours is a path, so leave it unchecked and do this instead:
    ```bash
    /courses/NETS7052.202710/shared/cmns-core/bin/python -m ipykernel install --user --name cmns-core --display-name "Python (cmns-core)"
    ```
-   Then pick **Kernel → Change Kernel → Python (cmns-core)** in JupyterLab.
+   Launch JupyterLab from the **Courses** tab in Open OnDemand, then reload the browser tab (JupyterLab only reads the kernel list at page load), open a notebook, and pick **Kernel → Change Kernel → Python (cmns-core)**.
 3. **Fork this repository** on GitHub (button in the top right).
 4. **Clone your fork** into your student directory on the cluster:
    ```bash
@@ -55,7 +55,7 @@ Full instructions, including SSH keys and fixing common Git problems, are in [Cl
 
 ### Environments
 
-The main environment is defined in [`environment.yml`](environment.yml) (`cmns-core`: scientific Python, NetworkX, plotting). A few later classes need heavier, conflicting dependencies and get their own environment under [`envs/`](envs/):
+The main environment is defined in [`environment.yml`](environment.yml) (`cmns-core`: scientific Python, NetworkX, plotting). A few later classes need heavier, conflicting dependencies and get their own environment under [`envs/`](https://github.com/computational-methods-network-science/nets7052_fa26/tree/main/envs):
 
 | Environment | Used for |
 |---|---|
@@ -72,7 +72,7 @@ On the cluster the shared `cmns-core` environment is already built for you at th
 ```
 nets7052_fa26/
 ├── notebooks/
-│   └── class_NN/                   one folder per class meeting, posted before that class
+│   └── class_NN_<topic>/           one folder per class meeting
 ├── environment.yml                 the main conda environment (cmns-core)
 ├── envs/                           specialized environments (ml, osmnx, igraph, graphtool)
 ├── data/README.md                  where the large course datasets live
@@ -80,11 +80,11 @@ nets7052_fa26/
 └── README.md
 ```
 
-Notebooks are posted before each class meeting, not all at once. Pull from `upstream` before class (step 6 above) and the new material will appear. Class numbers here match the class numbers on the syllabus.
+Notebooks go up before each class, not all at once. If the folder for a class isn't there yet, that's why — pull from `upstream` (step 6 above) before class and it'll be there. Class numbers here match the syllabus.
 
 ### Data
 
-The large datasets for this course live on the cluster at `/courses/NETS7052.202710/data/`, readable by everyone in the class. See [`data/README.md`](data/README.md) for what's there and how to load it.
+The big datasets aren't in this repo — they're too large to commit. They live on the cluster at `/courses/NETS7052.202710/data/`, readable by everyone in the class. [`data/README.md`](data/README.md) has the file list and how to point a notebook at them.
 
 ## Course Learning Outcomes
 
@@ -109,9 +109,9 @@ Additionally, we recommend engagement with other useful network science and/or P
 
 ## Coursework, Class Structure, Grading
 
-**Logistics.** This is a twice-weekly hands-on class that emphasizes building experience with coding. This does not necessarily mean every second of every class will be live-coding, but it will inevitably come up in how the class is taught. We are often on the lookout for improving the pedagogical approach to this material, and we would welcome feedback on class structure. This course assumes prior experience with Python and basic linear algebra/probability; a short Python refresher is provided in Week 1.
+**Logistics.** This is a twice-weekly hands-on class that emphasizes building experience with coding. This does not necessarily mean every second of every class will be live-coding, but it will inevitably come up in how the class is taught. I am always on the lookout for improving the pedagogical approach to this material, and I welcome feedback on class structure. This course assumes prior experience with Python and basic linear algebra/probability; a short Python refresher is provided in Week 1.
 
-**Cluster workflows.** This course is delivered primarily on Northeastern's high-performance computing cluster. We will (a) provide a course baseline environment (conda) for interactive work (via Open OnDemand/SSH), (b) demonstrate how to clone and customize per-student environments reproducibly, and (c) run heavy jobs on compute nodes as needed. If an environment breaks, students can revert to the baseline. Guidance will be provided in Week 1.
+**Cluster workflows.** This course is delivered primarily on Northeastern's high-performance computing cluster. We will (a) provide a course baseline environment (conda) for interactive work (via Open OnDemand/SSH), (b) demonstrate how to clone and customize per-student environments reproducibly, and (c) run heavy jobs on compute nodes as needed. If an environment breaks, students can revert to the baseline. [Class 00](notebooks/class_00_intro_and_setup/class_00_intro_and_setup.ipynb) walks through all of it on day one.
 
 **Grading.** This course is graded as follows:
 

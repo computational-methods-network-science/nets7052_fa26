@@ -48,3 +48,6 @@ chapters:
 #    title: "Class 21: Network Reconstruction from Dynamics"
 #  - file: notebooks/class_22/class_22_spatial
 #    title: "Class 22: Spatial Data, OSMNX, GeoPandas"
+
+  - file: data/README
+    title: "Course data"

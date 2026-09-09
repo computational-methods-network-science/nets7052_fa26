@@ -1,12 +1,12 @@
 # Course data
 
-The large datasets for this course live on the cluster:
+The big datasets live on the cluster, not in this repo:
 
 ```
 /courses/NETS7052.202710/data/
 ```
 
-That directory is readable by everyone enrolled in the class. Nothing you need to run a class notebook has to be downloaded.
+Everyone in the class can read that directory, so nothing you need for a class notebook has to be downloaded. Read them straight from there — don't copy them into your own folder. The largest is 94 MB, and eight copies of it on a shared filesystem helps nobody.
 
 ## Using it from a notebook
 

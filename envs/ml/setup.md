@@ -1,4 +1,4 @@
-# NSDM Machine Learning environment (cmns-ml)
+# Machine Learning environment (cmns-ml)
 
 This guide installs a CPU-first environment for ML notebooks using **PyTorch** (plus scikit-learn).
 
@@ -105,13 +105,9 @@ Kernel: **Python (cmns-ml / PyTorch CPU)**
 
 ---
 
-## 7) Which notebooks use this environment?
+## Which classes use this environment?
 
-- `class_26_embedding_v3.ipynb`
-- `class_64_machine_learning_1_v3.ipynb`
-- `class_65_graph_machine_learning_2_v4.ipynb`
-
----
+Classes 12 and 13 — Introduction to Machine Learning 1 and 2.
 
 ## 8) Optional: GPU notes (do not do this unless you know you want it)
 

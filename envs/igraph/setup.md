@@ -1,4 +1,4 @@
-# NSDM igraph environment (cmns-igraph)
+# igraph environment (cmns-igraph)
 
 This guide installs a dedicated environment for notebooks that use **python-igraph** (plus Leiden community detection, and Plotly-based plotting).
 
@@ -87,12 +87,9 @@ Kernel: **Python (cmns-igraph / igraph)**
 
 ---
 
-## 6) Which notebooks use this environment?
+## Which classes use this environment?
 
-- `class_08_communities1_v2.ipynb`
-- `class_30_igraph_v3.ipynb`
-
----
+Clustering & Community Detection, Classes 7 and 8, wherever we want igraph's Leiden implementation.
 
 ## 7) Updating / removing the environment
 

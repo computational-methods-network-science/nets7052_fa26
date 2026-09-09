@@ -1,4 +1,4 @@
-# NSDM OSMnx / Geospatial environment (cmns-osmnx)
+# OSMnx / Geospatial environment (cmns-osmnx)
 
 This guide installs a Conda environment for geospatial notebooks using **OSMnx + GeoPandas**.
 
@@ -91,13 +91,9 @@ Kernel: **Python (cmns-osmnx / OSMnx)**
 
 ---
 
-## 6) Which notebooks use this environment?
+## Which classes use this environment?
 
-- `class_24_spatial_v4.ipynb`
-- `class_28_flows_v2.ipynb`
-- `class_38_multilayer_urban_v2.ipynb`
-
----
+Class 22 — Spatial Data, OSMNX, GeoPandas.
 
 ## 7) Updating / removing the environment
 
