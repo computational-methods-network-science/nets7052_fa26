@@ -2,7 +2,7 @@ format: jb-book
 root: README
 
 chapters:
-  - file: notebooks/class_00/class_00_intro_and_setup
+  - file: notebooks/class_00_intro_and_setup/class_00_intro_and_setup
     title: "Class 00: Introduction, GitHub & Computing Setup"
 
 # Notebooks are posted before each class meeting. To add one: drop the folder

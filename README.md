@@ -45,7 +45,7 @@ Everything runs on Northeastern's Explorer HPC cluster. Class 00 walks through t
    git fetch upstream && git merge upstream/main
    ```
 
-Full instructions, including SSH keys and fixing common Git problems, are in [Class 00](notebooks/class_00/class_00_intro_and_setup.ipynb).
+Full instructions, including SSH keys and fixing common Git problems, are in [Class 00](notebooks/class_00_intro_and_setup/class_00_intro_and_setup.ipynb).
 
 ### Environments
 
