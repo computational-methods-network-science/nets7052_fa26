@@ -35,4 +35,4 @@ DATA = Path("~/my_local_data").expanduser()
 | `cit-HepPh.txt` | 6.4 MB | Class 17 — Network Sampling |
 | `ma_clim.csv` | 5.5 MB | Class 22 — Spatial Data |
 
-Small example files (under ~5 MB) that a notebook needs in order to run standalone are committed alongside it, under `notebooks/class_NN/data/`.
+Small example files (under ~5 MB) that a notebook needs in order to run standalone are committed alongside it, under `notebooks/class_NN_<topic>/data/`.

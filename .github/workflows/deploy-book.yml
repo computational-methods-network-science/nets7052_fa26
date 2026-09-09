@@ -25,7 +25,7 @@ jobs:
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
-          pip install "jupyter-book==0.15.1" "myst-nb==0.17.2"
+          pip install "jupyter-book==0.15.1" "myst-nb==0.17.2" "linkify-it-py"
       - name: Build book
         run: |
           set -o pipefail

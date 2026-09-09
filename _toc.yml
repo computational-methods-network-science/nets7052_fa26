@@ -8,45 +8,45 @@ chapters:
 # Notebooks are posted before each class meeting. To add one: drop the folder
 # under notebooks/ and uncomment its line below.
 #
-#  - file: notebooks/class_01/class_01_python_refresher
+#  - file: notebooks/class_01_python_refresher/class_01_python_refresher
 #    title: "Class 01: Python Refresher"
-#  - file: notebooks/class_02/class_02_networkx1
+#  - file: notebooks/class_02_networkx1/class_02_networkx1
 #    title: "Class 02: NetworkX 1 — Loading Data, Basic Statistics"
-#  - file: notebooks/class_03/class_03_networkx2
+#  - file: notebooks/class_03_networkx2/class_03_networkx2
 #    title: "Class 03: NetworkX 2 — Graph Algorithms"
-#  - file: notebooks/class_04/class_04_distributions
+#  - file: notebooks/class_04_distributions/class_04_distributions
 #    title: "Class 04: Distributions of Network Properties & Centralities"
-#  - file: notebooks/class_05/class_05_scraping
+#  - file: notebooks/class_05_scraping/class_05_scraping
 #    title: "Class 05: Scraping Web Data — BeautifulSoup, HTML, Pandas"
-#  - file: notebooks/class_06/class_06_data_science_sql
+#  - file: notebooks/class_06_data_science_sql/class_06_data_science_sql
 #    title: "Class 06: Data Science & SQL"
-#  - file: notebooks/class_07/class_07_communities1
+#  - file: notebooks/class_07_communities1/class_07_communities1
 #    title: "Class 07: Community Detection 1 — Traditional"
-#  - file: notebooks/class_08/class_08_communities2
+#  - file: notebooks/class_08_communities2/class_08_communities2
 #    title: "Class 08: Community Detection 2 — Contemporary"
-#  - file: notebooks/class_11/class_11_visualization
+#  - file: notebooks/class_11_visualization/class_11_visualization
 #    title: "Class 11: Visualization — Python"
-#  - file: notebooks/class_12/class_12_machine_learning1
+#  - file: notebooks/class_12_machine_learning1/class_12_machine_learning1
 #    title: "Class 12: Machine Learning 1 — General"
-#  - file: notebooks/class_13/class_13_machine_learning2
+#  - file: notebooks/class_13_machine_learning2/class_13_machine_learning2
 #    title: "Class 13: Machine Learning 2 — Networks"
-#  - file: notebooks/class_14/class_14_dynamics1
+#  - file: notebooks/class_14_dynamics1/class_14_dynamics1
 #    title: "Class 14: Dynamics 1 — Diffusion & Random Walks"
-#  - file: notebooks/class_15/class_15_dynamics2
+#  - file: notebooks/class_15_dynamics2/class_15_dynamics2
 #    title: "Class 15: Dynamics 2 — Compartmental Models"
-#  - file: notebooks/class_16/class_16_dynamics3
+#  - file: notebooks/class_16_dynamics3/class_16_dynamics3
 #    title: "Class 16: Dynamics 3 — Agent-Based Models"
-#  - file: notebooks/class_17/class_17_sampling
+#  - file: notebooks/class_17_sampling/class_17_sampling
 #    title: "Class 17: Network Sampling"
-#  - file: notebooks/class_18/class_18_filtering
+#  - file: notebooks/class_18_filtering/class_18_filtering
 #    title: "Class 18: Network Filtering & Thresholding"
-#  - file: notebooks/class_19/class_19_temporal
+#  - file: notebooks/class_19_temporal/class_19_temporal
 #    title: "Class 19: Temporal Networks"
-#  - file: notebooks/class_20/class_20_graph_distances
+#  - file: notebooks/class_20_graph_distances/class_20_graph_distances
 #    title: "Class 20: Network Comparison & Graph Distances"
-#  - file: notebooks/class_21/class_21_reconstruction
+#  - file: notebooks/class_21_reconstruction/class_21_reconstruction
 #    title: "Class 21: Network Reconstruction from Dynamics"
-#  - file: notebooks/class_22/class_22_spatial
+#  - file: notebooks/class_22_spatial/class_22_spatial
 #    title: "Class 22: Spatial Data, OSMNX, GeoPandas"
 
   - file: data/README

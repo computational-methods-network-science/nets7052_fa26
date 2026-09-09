@@ -104,12 +104,12 @@ Our main resource for the course is the ever-growing Jupyter Book, where we will
 Additionally, we recommend engagement with other useful network science and/or Python materials:
 
 - Barabási (2016). ***Network Science***. Cambridge University Press; 1st Edition; 978-1107076266. http://networksciencebook.com
-- Newman (2018). ***Networks: An Introduction***. Oxford University Press; 2nd Edition; 978-0198805090. https://global.oup.com/academic/product/networks-9780198805090
-- VanderPlas (2019). ***Python Data Science Handbook***. O'Reilly Media, Inc; 978-1491912058. https://github.com/jakevdp/PythonDataScienceHandbook
+- Newman (2018). ***Networks***. Oxford University Press; 2nd Edition; 978-0198805090. https://global.oup.com/academic/product/networks-9780198805090
+- VanderPlas (2016). ***Python Data Science Handbook***. O'Reilly Media, Inc; 1st Edition; 978-1491912058. https://github.com/jakevdp/PythonDataScienceHandbook
 
 ## Coursework, Class Structure, Grading
 
-**Logistics.** This is a twice-weekly hands-on class that emphasizes building experience with coding. This does not necessarily mean every second of every class will be live-coding, but it will inevitably come up in how the class is taught. I am always on the lookout for improving the pedagogical approach to this material, and I welcome feedback on class structure. This course assumes prior experience with Python and basic linear algebra/probability; a short Python refresher is provided in Week 1.
+**Logistics.** This is a twice-weekly hands-on class that emphasizes building experience with coding. This does not necessarily mean every second of every class will be live-coding, but it will inevitably come up in how the class is taught. I am always on the lookout for improving the pedagogical approach to this material, and I welcome feedback on class structure. This course assumes prior experience with Python and basic linear algebra/probability; a short Python refresher is provided in Class 1 (Mon, Sep 14).
 
 **Cluster workflows.** This course is delivered primarily on Northeastern's high-performance computing cluster. We will (a) provide a course baseline environment (conda) for interactive work (via Open OnDemand/SSH), (b) demonstrate how to clone and customize per-student environments reproducibly, and (c) run heavy jobs on compute nodes as needed. If an environment breaks, students can revert to the baseline. [Class 00](notebooks/class_00_intro_and_setup/class_00_intro_and_setup.ipynb) walks through all of it on day one.
 

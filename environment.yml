@@ -10,6 +10,9 @@ dependencies:
 - scipy
 - matplotlib
 - networkx
+- beautifulsoup4
+- requests
+- lxml
 - scikit-learn
 - statsmodels
 - numba
