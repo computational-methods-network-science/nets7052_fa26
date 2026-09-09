@@ -8,7 +8,7 @@ September 9 – December 16, 2026
 
 **Github Repository:** https://github.com/computational-methods-network-science/nets7052_fa26
 
-**Syllabus:** https://brennanklein.com/phys7052-fall26
+**Syllabus:** https://brennanklein.com/nets7052-fall26
 
 **Office Hours:** Wednesdays, 1:30–2:30pm, Network Science Institute (177 Huntington Ave, 10th floor) or Zoom
 
