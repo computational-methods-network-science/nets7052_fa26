@@ -23,12 +23,17 @@ This course was previously offered as PHYS 7332 (Network Science Data II), and w
 Everything runs on Northeastern's Explorer HPC cluster. Class 00 walks through the whole setup; the short version:
 
 1. **Log in to Open OnDemand:** https://ood.explorer.northeastern.edu/
-2. **Load conda and activate the class environment:**
+2. **Activate the class environment:**
    ```bash
    module load anaconda3/2024.06
    source /shared/EL9/explorer/anaconda3/2024.06/etc/profile.d/conda.sh
    conda activate /courses/NETS7052.202710/shared/cmns-core
    ```
+   To use it in a notebook, register it as a kernel once — the OOD "Custom Anaconda Environment" box takes an environment name and ours is a path, so leave that box blank:
+   ```bash
+   python -m ipykernel install --user --name cmns-core --display-name "Python (cmns-core)"
+   ```
+   Then pick **Kernel → Change Kernel → Python (cmns-core)** in JupyterLab.
 3. **Fork this repository** on GitHub (button in the top right).
 4. **Clone your fork** into your student directory on the cluster:
    ```bash
