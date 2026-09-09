@@ -26,7 +26,8 @@ Everything runs on Northeastern's Explorer HPC cluster. Class 00 walks through t
 2. **Load conda and activate the class environment:**
    ```bash
    module load anaconda3/2024.06
-   source activate /courses/NETS7052.202710/shared/cmns-core
+   source /shared/EL9/explorer/anaconda3/2024.06/etc/profile.d/conda.sh
+   conda activate /courses/NETS7052.202710/shared/cmns-core
    ```
 3. **Fork this repository** on GitHub (button in the top right).
 4. **Clone your fork** into your student directory on the cluster:
