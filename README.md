@@ -31,7 +31,7 @@ Everything runs on Northeastern's Explorer HPC cluster. Class 00 walks through t
    ```
    To use it in a notebook, register it as a kernel once — the OOD "Custom Anaconda Environment" box takes an environment name and ours is a path, so leave that box blank:
    ```bash
-   python -m ipykernel install --user --name cmns-core --display-name "Python (cmns-core)"
+   /courses/NETS7052.202710/shared/cmns-core/bin/python -m ipykernel install --user --name cmns-core --display-name "Python (cmns-core)"
    ```
    Then pick **Kernel → Change Kernel → Python (cmns-core)** in JupyterLab.
 3. **Fork this repository** on GitHub (button in the top right).
