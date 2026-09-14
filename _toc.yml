@@ -10,8 +10,8 @@ chapters:
 #
   - file: notebooks/class_01_python_refresher/class_01_python_refresher
     title: "Class 01: Python Refresher"
-#  - file: notebooks/class_02_networkx1/class_02_networkx1
-#    title: "Class 02: NetworkX 1 — Loading Data, Basic Statistics"
+  - file: notebooks/class_02_networkx1/class_02_networkx1
+    title: "Class 02: NetworkX 1 — Loading Data, Basic Statistics"
 #  - file: notebooks/class_03_networkx2/class_03_networkx2
 #    title: "Class 03: NetworkX 2 — Graph Algorithms"
 #  - file: notebooks/class_04_distributions/class_04_distributions
