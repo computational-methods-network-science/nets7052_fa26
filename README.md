@@ -147,6 +147,9 @@ The final project for this course is a chance for students to synthesize their k
 - Fitting Distributions to Network Data
 - Hierarchical Networks
 - Ranking in Networks
+- Network Models of Opinion Dynamics
+- Networks of Agents
+- Scaling Laws in Complex Systems
 - Deeper Dive: Random Walks on Networks
 - Deeper Dive: Directed Networks
 - Deeper Dive: Network Null Models
