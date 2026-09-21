@@ -12,8 +12,8 @@ chapters:
     title: "Class 01: Python Refresher"
   - file: notebooks/class_02_networkx1/class_02_networkx1
     title: "Class 02: NetworkX 1 — Loading Data, Basic Statistics"
-#  - file: notebooks/class_03_networkx2/class_03_networkx2
-#    title: "Class 03: NetworkX 2 — Graph Algorithms"
+  - file: notebooks/class_03_networkx2/class_03_networkx2
+    title: "Class 03: NetworkX 2 — Graph Algorithms"
 #  - file: notebooks/class_04_distributions/class_04_distributions
 #    title: "Class 04: Distributions of Network Properties & Centralities"
 #  - file: notebooks/class_05_scraping/class_05_scraping
