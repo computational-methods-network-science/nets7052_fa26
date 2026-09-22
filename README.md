@@ -170,14 +170,16 @@ This schedule is subject to change.
 | – | Fri, Sep 11, 26 | | |
 | 1 | Mon, Sep 14, 26 | Python Refresher (Data Structures, NumPy) | Brennan Klein |
 | 2 | Wed, Sep 16, 26 | Introduction to NetworkX 1 — Loading Data, Basic Statistics | Brennan Klein |
-| – | Fri, Sep 18, 26 | *Assignment 1 announced* | |
+| – | Fri, Sep 18, 26 | | |
 | 3 | Mon, Sep 21, 26 | Introduction to NetworkX 2 — Graph Algorithms | Brennan Klein |
+| – | Tue, Sep 22, 26 | *Assignment 1 announced* | |
 | 4 | Wed, Sep 23, 26 | Distributions of Network Properties & Centralities | Brennan Klein |
 | – | Fri, Sep 25, 26 | | |
 | 5 | Mon, Sep 28, 26 | Scraping Web Data — BeautifulSoup, HTML, Pandas | Brennan Klein |
 | 6 | Wed, Sep 30, 26 | Data Science & SQL | Brennan Klein |
-| – | Fri, Oct 2, 26 | **Assignment 1 due** | |
+| – | Fri, Oct 2, 26 | | |
 | 7 | Mon, Oct 5, 26 | Clustering & Community Detection 1 — Traditional | Brennan Klein |
+| – | Tue, Oct 6, 26 | **Assignment 1 due** | |
 | 8 | Wed, Oct 7, 26 | Clustering & Community Detection 2 — Contemporary | Brennan Klein |
 | – | Fri, Oct 9, 26 | *Assignment 2 announced* | |
 | – | Mon, Oct 12, 26 | Indigenous Peoples Day (No Class) | |
