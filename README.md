@@ -60,7 +60,7 @@ The main environment is defined in [`environment.yml`](environment.yml) (`cmns-c
 | Environment | Used for |
 |---|---|
 | `cmns-core` | most classes |
-| `cmns-ml` | Classes 12–13 (machine learning; PyTorch, gensim) |
+| `cmns-ml` | Classes 15–16 (machine learning; PyTorch, PyTorch Geometric, gensim) |
 | `cmns-osmnx` | Class 22 (spatial data) |
 | `cmns-igraph` | igraph / Leiden community detection |
 | `cmns-graphtool` | graph-tool / Infomap |
@@ -188,13 +188,13 @@ This schedule is subject to change.
 | 10 | Mon, Oct 19, 26 | Project Update Presentations | Brennan Klein |
 | 11 | Wed, Oct 21, 26 | Visualization — Python | Brennan Klein |
 | – | Fri, Oct 23, 26 | **Assignment 2 due** | |
-| 12 | Mon, Oct 26, 26 | Introduction to Machine Learning 1 — General | Brennan Klein |
-| 13 | Wed, Oct 28, 26 | Introduction to Machine Learning 2 — Networks | Brennan Klein |
+| 12 | Mon, Oct 26, 26 | Dynamics on Networks 1 — Diffusion and Random Walks | Brennan Klein |
+| 13 | Wed, Oct 28, 26 | Dynamics on Networks 2 — Compartmental Models | Brennan Klein |
 | – | Fri, Oct 30, 26 | *Assignment 3 announced* | |
-| 14 | Mon, Nov 2, 26 | Dynamics on Networks 1 — Diffusion and Random Walks | Brennan Klein |
-| 15 | Wed, Nov 4, 26 | Dynamics on Networks 2 — Compartmental Models | Brennan Klein |
+| 14 | Mon, Nov 2, 26 | Dynamics on Networks 3 — Agent-Based Models | Brennan Klein |
+| 15 | Wed, Nov 4, 26 | Introduction to Machine Learning 1 — General | Brennan Klein |
 | – | Fri, Nov 6, 26 | | |
-| 16 | Mon, Nov 9, 26 | Dynamics on Networks 3 — Agent-Based Models | Brennan Klein |
+| 16 | Mon, Nov 9, 26 | Introduction to Machine Learning 2 — Networks | Brennan Klein |
 | – | Wed, Nov 11, 26 | Veterans Day (No Class) | |
 | – | Fri, Nov 13, 26 | **Assignment 3 due** | |
 | 17 | Mon, Nov 16, 26 | Network Sampling | Brennan Klein |

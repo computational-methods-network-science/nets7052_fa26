@@ -30,16 +30,16 @@ chapters:
     title: "Class 10: Link Prediction"
   - file: notebooks/class_11_visualization/class_11_visualization
     title: "Class 11: Visualization — Python"
-#  - file: notebooks/class_12_machine_learning1/class_12_machine_learning1
-#    title: "Class 12: Machine Learning 1 — General"
-#  - file: notebooks/class_13_machine_learning2/class_13_machine_learning2
-#    title: "Class 13: Machine Learning 2 — Networks"
-#  - file: notebooks/class_14_dynamics1/class_14_dynamics1
-#    title: "Class 14: Dynamics 1 — Diffusion & Random Walks"
-#  - file: notebooks/class_15_dynamics2/class_15_dynamics2
-#    title: "Class 15: Dynamics 2 — Compartmental Models"
-#  - file: notebooks/class_16_dynamics3/class_16_dynamics3
-#    title: "Class 16: Dynamics 3 — Agent-Based Models"
+  - file: notebooks/class_12_dynamics1/class_12_dynamics1
+    title: "Class 12: Dynamics 1 — Diffusion & Random Walks"
+#  - file: notebooks/class_13_dynamics2/class_13_dynamics2
+#    title: "Class 13: Dynamics 2 — Compartmental Models"
+#  - file: notebooks/class_14_dynamics3/class_14_dynamics3
+#    title: "Class 14: Dynamics 3 — Agent-Based Models"
+#  - file: notebooks/class_15_machine_learning1/class_15_machine_learning1
+#    title: "Class 15: Machine Learning 1 — General"
+#  - file: notebooks/class_16_machine_learning2/class_16_machine_learning2
+#    title: "Class 16: Machine Learning 2 — Networks"
 #  - file: notebooks/class_17_sampling/class_17_sampling
 #    title: "Class 17: Network Sampling"
 #  - file: notebooks/class_18_filtering/class_18_filtering

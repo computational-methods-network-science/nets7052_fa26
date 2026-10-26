@@ -12,5 +12,10 @@ dependencies:
 - networkx
 - scikit-learn
 - pytorch-cpu
+- pytorch_geometric
+- pyg-lib
 - gensim
+- osmnx
+- geopandas
+- contextily
 - pip
