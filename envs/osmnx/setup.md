@@ -8,7 +8,7 @@ OSMnx is pure Python, but it depends on geospatial libraries with compiled parts
 
 ## On the course cluster (Explorer)
 
-You don't need to install anything. The environment is already built at `/courses/NETS7052.202710/shared/cmns-osmnx`. You connect it to JupyterLab once, the same way you connected `cmns-ml` in Class 12:
+You don't need to install anything. The environment is already built at `/courses/NETS7052.202710/shared/cmns-osmnx`. You connect it to JupyterLab once, the same way you connected `cmns-ml` in Class 15:
 
 1. In [Open OnDemand](https://ood.explorer.northeastern.edu/), open the **Courses** menu, click **JupyterLab (Python)**, and launch it with your usual settings. Leave **Custom Anaconda Environment** blank.
 2. Open a terminal (**File → New → Terminal**) and run this single line, exactly as written:
