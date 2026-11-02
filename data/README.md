@@ -29,10 +29,10 @@ DATA = Path("~/my_local_data").expanduser()
 
 | File | Size | Used by |
 |---|---|---|
-| `db28seg.dd.wac.2021.2022.asc` | 94 MB | Class 18 — Network Filtering / Thresholding |
+| `db28seg.dd.wac.2021.2022.asc` | 94 MB | Class 17 — Network Filtering / Sparsification |
 | `mystery.pickle` | 18 MB | Class 11 — Visualization |
 | `tl_2020_25_tract/` (shapefile) | 6.8 MB | Class 22 — Spatial Data |
-| `cit-HepPh.txt` | 6.4 MB | Class 17 — Network Sampling |
+| `cit-HepPh.txt` | 6.4 MB | Class 16 — Network Sampling |
 | `ma_clim.csv` | 5.5 MB | Class 22 — Spatial Data |
 
 Small example files (under ~5 MB) that a notebook needs in order to run standalone are committed alongside it, under `notebooks/class_NN_<topic>/data/`.

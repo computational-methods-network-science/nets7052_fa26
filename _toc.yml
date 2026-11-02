@@ -34,18 +34,18 @@ chapters:
     title: "Class 12: Dynamics 1 — Diffusion & Random Walks"
   - file: notebooks/class_13_dynamics2/class_13_dynamics2
     title: "Class 13: Dynamics 2 — Compartmental Models"
-#  - file: notebooks/class_14_dynamics3/class_14_dynamics3
-#    title: "Class 14: Dynamics 3 — Agent-Based Models"
-#  - file: notebooks/class_15_machine_learning1/class_15_machine_learning1
-#    title: "Class 15: Machine Learning 1 — General"
-#  - file: notebooks/class_16_machine_learning2/class_16_machine_learning2
-#    title: "Class 16: Machine Learning 2 — Networks"
-#  - file: notebooks/class_17_sampling/class_17_sampling
-#    title: "Class 17: Network Sampling"
-#  - file: notebooks/class_18_filtering/class_18_filtering
-#    title: "Class 18: Network Filtering & Thresholding"
-#  - file: notebooks/class_19_temporal/class_19_temporal
-#    title: "Class 19: Temporal Networks"
+  - file: notebooks/class_14_dynamics3/class_14_dynamics3
+    title: "Class 14: Dynamics 3 — Agent-Based Models"
+#  - file: notebooks/class_15_temporal/class_15_temporal
+#    title: "Class 15: Temporal Networks"
+#  - file: notebooks/class_16_sampling/class_16_sampling
+#    title: "Class 16: Network Sampling"
+#  - file: notebooks/class_17_filtering/class_17_filtering
+#    title: "Class 17: Network Filtering & Sparsification"
+#  - file: notebooks/class_18_machine_learning1/class_18_machine_learning1
+#    title: "Class 18: Machine Learning 1 — General & Link Prediction"
+#  - file: notebooks/class_19_machine_learning2/class_19_machine_learning2
+#    title: "Class 19: Machine Learning 2 — Graph ML & GNNs"
 #  - file: notebooks/class_20_graph_distances/class_20_graph_distances
 #    title: "Class 20: Network Comparison & Graph Distances"
 #  - file: notebooks/class_21_reconstruction/class_21_reconstruction

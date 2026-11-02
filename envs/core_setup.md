@@ -127,7 +127,7 @@ In JupyterLab: **Kernel → Change Kernel → Python (cmns-core)**.
 
 ## Which classes use this environment?
 
-Most of them. The exceptions are Classes 7 and 8 (community detection), 12 and 13 (machine learning), and 22 (spatial), which need the heavier environments under `envs/`. The schedule in the [README](../README.md) says which is which.
+Most of them. The exceptions are Classes 7 and 8 (community detection), 18 and 19 (machine learning), and 22 (spatial), which need the heavier environments under `envs/`. The schedule in the [README](../README.md) says which is which.
 
 ## 7) Updating / removing the environment
 
