@@ -40,8 +40,8 @@ chapters:
     title: "Class 15: Temporal Networks"
   - file: notebooks/class_16_filtering/class_16_filtering
     title: "Class 16: Network Filtering & Sparsification"
-#  - file: notebooks/class_17_sampling/class_17_sampling
-#    title: "Class 17: Network Sampling"
+  - file: notebooks/class_17_sampling/class_17_sampling
+    title: "Class 17: Network Sampling"
 #  - file: notebooks/class_18_machine_learning1/class_18_machine_learning1
 #    title: "Class 18: Machine Learning 1 — General & Link Prediction"
 #  - file: notebooks/class_19_machine_learning2/class_19_machine_learning2

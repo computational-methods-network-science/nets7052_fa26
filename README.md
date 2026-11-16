@@ -192,17 +192,17 @@ This schedule is subject to change.
 | 13 | Wed, Oct 28, 26 | Dynamics on Networks 2 — Compartmental Models | Brennan Klein |
 | – | Fri, Oct 30, 26 | | |
 | 14 | Mon, Nov 2, 26 | Dynamics on Networks 3 — Agent-Based Models | Brennan Klein |
-| – | Mon, Nov 2, 26 | *Assignment 3 announced* | |
 | 15 | Wed, Nov 4, 26 | Dynamics of Networks — Temporal Networks | Brennan Klein |
 | – | Fri, Nov 6, 26 | | |
-| 16 | Mon, Nov 9, 26 | Network Sampling | Brennan Klein |
+| 16 | Mon, Nov 9, 26 | Network Filtering / Sparsification | Brennan Klein |
+| – | Mon, Nov 9, 26 | *Assignment 3 announced* | |
 | – | Wed, Nov 11, 26 | Veterans Day (No Class) | |
 | – | Fri, Nov 13, 26 | | |
-| 17 | Mon, Nov 16, 26 | Network Filtering / Sparsification | Brennan Klein |
-| – | Mon, Nov 16, 26 | **Assignment 3 due** | |
+| 17 | Mon, Nov 16, 26 | Network Sampling | Brennan Klein |
 | 18 | Wed, Nov 18, 26 | Machine Learning 1 — General and Link Prediction | Brennan Klein |
 | – | Fri, Nov 20, 26 | | |
 | 19 | Mon, Nov 23, 26 | Machine Learning 2 — Graph ML and GNNs | Brennan Klein |
+| – | Mon, Nov 23, 26 | **Assignment 3 due** | |
 | – | Wed, Nov 25, 26 | Thanksgiving Break (No Class) | |
 | – | Fri, Nov 27, 26 | | |
 | 20 | Mon, Nov 30, 26 | Network Comparison & Graph Distances | Brennan Klein |
