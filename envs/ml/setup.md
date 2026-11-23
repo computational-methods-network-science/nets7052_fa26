@@ -1,6 +1,6 @@
 # Machine Learning environment (cmns-ml)
 
-This environment is for Classes 18 and 19, Machine Learning 1 and 2. On top of the usual scientific Python packages it has **PyTorch**, **PyTorch Geometric** and **gensim**, plus OSMnx, GeoPandas and contextily for the street-network example in Class 19.
+This environment is for Classes 18 and 19, Machine Learning 1 and 2. On top of the usual scientific Python packages it has **PyTorch**, **PyTorch Geometric** and **gensim**. It also has OSMnx, GeoPandas and contextily, which this year's class notebooks don't use.
 
 PyTorch is installed as a **CPU build** on purpose. The class examples are small enough to train on a CPU, and a CPU build installs the same way on every machine.
 

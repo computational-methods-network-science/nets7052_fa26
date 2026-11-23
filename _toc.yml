@@ -42,10 +42,10 @@ chapters:
     title: "Class 16: Network Filtering & Sparsification"
   - file: notebooks/class_17_sampling/class_17_sampling
     title: "Class 17: Network Sampling"
-#  - file: notebooks/class_18_machine_learning1/class_18_machine_learning1
-#    title: "Class 18: Machine Learning 1 — General & Link Prediction"
-#  - file: notebooks/class_19_machine_learning2/class_19_machine_learning2
-#    title: "Class 19: Machine Learning 2 — Graph ML & GNNs"
+  - file: notebooks/class_18_machine_learning1/class_18_machine_learning1
+    title: "Class 18: Machine Learning 1 — General & Link Prediction"
+  - file: notebooks/class_19_machine_learning2/class_19_machine_learning2
+    title: "Class 19: Machine Learning 2 — Graph ML & GNNs"
 #  - file: notebooks/class_20_graph_distances/class_20_graph_distances
 #    title: "Class 20: Network Comparison & Graph Distances"
 #  - file: notebooks/class_21_reconstruction/class_21_reconstruction
